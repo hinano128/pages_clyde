@@ -1,0 +1,62 @@
+@import url(common.css);
+/*---メインビジュアル--- */
+
+p.visual{
+    padding-bottom: 67px;
+}
+
+
+.text ul{
+    margin-bottom: 67px;
+}
+
+.text li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text h2{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid #868686;
+    border-bottom: 2px solid #868686;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 48px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* 一つ目の説明文を左揃えにするところから始める。文字サイズ注意！ */
+.text p{
+    text-align: left;
+    line-height: 35px;
+    border-bottom: 3px solid #000;
+    padding-bottom: 50px;
+    margin-bottom: 67px;
+}
+
+.event h2{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid #868686;
+    border-bottom: 2px solid #868686;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 48px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.event ul{
+    border-bottom: 3px solid #000;
+    margin-bottom: 67px;
+
+}
+
+.event ul li{
+    margin-bottom: 50px;
+}
