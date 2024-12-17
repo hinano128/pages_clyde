@@ -1,0 +1,81 @@
+@import url(common.css);
+
+/* セクション全体 */
+
+article section {
+    border: 2px solid #4A4A4A;
+    padding-top: 42px;
+    margin-bottom: 67px;
+}
+
+/* 本日のメニュー */
+
+main article h1 {
+    font-size: 40px;
+    font-weight: bold;
+    height: 117px;
+    background-image: url(../img/since.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-bottom: 67px;
+}
+
+/* セクションタイトル */
+
+main section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    height: 106px;
+    color: #54410C;
+    background-image: url(../img/line.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 22px;
+}
+
+/* セクションごとの説明文 */
+
+main section p.text {
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 23px;
+    padding-bottom: 11px;
+}
+
+/* セクションごとの値段 */
+
+main section p.price {
+    color: #54410C;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+
+/* セクションごとのボタン */
+
+main section p.button a {
+    background-color: #6B5311;
+    color: #FFFDF8;
+    font-size: 18px;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 350px;
+    height: 60px;
+    background-image: url(../img/yajirusi.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: right 23px center;
+    margin-bottom: 42px;
+}
+
+/* ホバー時の動き */
+
+main section p.button a:hover {
+    opacity: 0.7;
+}
